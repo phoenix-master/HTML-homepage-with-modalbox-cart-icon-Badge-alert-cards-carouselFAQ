@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>smartcell.com</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/index.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+
+        
+   
+    </head>
+    <body>
+
+        <div class="container">
+            
+
+
+              <!--new eraaa-->
+              <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-sm bg-dark navbar-dark banner">
+                        <!-- Brand/logo -->
+                        <a class="navbar-brand" href="#">
+                          <img src="images/appl.jpg" alt="logo" style="width:30px;">
+                        </a>
+                        
+                        <!-- Links -->
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" href="index.html" >Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Stores</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Accessories</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Buy</a>
+                          </li>
+                          <li>
+                          <a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:40px;color:#ff0066;margin-left:20px;"></i></a>
+                          <span class="badge badge-pill badge-light">5</span>
+                          </li>
+                          <form class="form-inline fr" action="/action_page.php">
+                            <div class="dropdown">
+                              <a href="#" data-toggle="dropdown">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search"></a>
+                            <div class="dropdown-menu">
+                              <li class="dropdown-item"><a href="#">Shark</a></li>
+                              <li class="dropdown-item"><a href="#">Nokia</a></li>
+                              <li class="dropdown-item"><a href="#">Samsung</a></li>
+                              <li class="dropdown-item"><a href="#">Sony</a></li>
+                              <li class="dropdown-item"><a href="#">Apple</a></li>
+                              <li class="dropdown-item"><a href="#">Realme</a></li>
+                              <li class="dropdown-item"><a href="#">Oppo</a></li>
+                              <li class="dropdown-item"><a href="#">OnePlus</a></li>
+                              <li class="dropdown-item"><a href="#">Motorola</a></li>
+                            </div>
+                          </div>
+                            <button class="btn btn-info" type="submit">Search</button>
+                          
+                            </form>
+                            <a href="faq.html"><h4 style="text-sixe:60px;color:white;text-align:center;margin-top:5px;margin-left:25px;color:#ff0066;">FAQ</h4></a>
+                          
+                        </ul>
+
+                        <ul class="navbar-nav ml-auto">
+                          <form>
+                            <!--modal box activator-->
+                            <a href="#" data-toggle="modal" data-target="#login">
+                            <input type="submit" value="login" class="btn btn-success"></a>
+                            <!--The modal-->
+                            <div class="modal" id="login" role="dialog">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header" style="background:rgba(0, 128, 255,0.5)">
+                                    <h3 class="modal-title">Login Here!</h3>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  </div>
+                                  <!--modal body-->
+                                  <div class="modal-body" style="background:rgba(179, 179, 179,0.5);">
+                                    <form>
+                                      <div class="alert alert-warning alert-dismissible">
+                                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                        <strong>Warning!</strong> Filling up the wrong information would cause login failure.
+                                      </div>
+                                      <p>User ID:<input type="text" class="form-control" name="usrid" placeholder="enter your email or phone" required=""></p>
+                                      <p>Password:<input type="password" class="form-control" name="pwd" placeholder="enter your password" required=""></p>
+                                      <p style="text-align: center;" ><button class="btn btn-success">Login</button></p>
+                                      
+                                      
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!--modal activator of register button-->
+                            <a href="#" data-toggle="modal" data-target="#register">
+                            <input type="submit" value="Register" class="btn btn-success mr">
+                          </a>
+                          <!--The modal-->
+                          <div class="modal" id="register" role="dialog">
+                           <div class="modal-dialog">
+                             <div class="modal-content">
+                               <div class="modal-header" style="background:rgba(0, 128, 255,0.5)">
+                                 <h3 class="modal-title">Register here!</h3>
+                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+                               </div>
+                               <!--modal body-->
+                               <div class="modal-body">
+                                 <form>
+                                  <div class="alert alert-danger alert-dismissible">
+                                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                    <strong>Caution!</strong> Filling information with vulgar words would ban you from accessing this site forever.
+                                  </div>
+                                   <table>
+                                    <thead>
+                                      <th><p>First Name:</p><input type="text" name="fname" placeholder="enter your first name" required=""></th>
+                                      <th><p>Last Name:</p><input type="text" name="lname" placeholder="enter your first name" required=""></th>
+                                    </thead>
+                                    <thead>
+                                      <th><p>Phone no:<p><input type="tel" name="phnno" placeholder="enter your phone no" required=""></th>
+                                      <th><p>Email:</p><input type="email" name="email" placeholder="enter your gmail" required=""></th>
+                                    </thead>
+                                    <thead>
+                                      <th><p>Birth-date:</p><span style="color:red">*</span></span><input type="date" name="dob"></th>
+                                      <th><p>Gender:</p><input type="radio" name="gender" value="male">male<input type="radio" name="gender" value="female">Female<input type="radio" name="gender" value="others">Others</th>
+                                    </thead> 
+                                    <thead>
+                                      <th><p>Address:</p><textarea></textarea></th>
+                                      <th><p>Area Pincode/ZIP:</p><input type="tel" name="pin" placeholder="enter your postal code" required=""></th>
+                                      
+                                    </thead>
+                                  
+                                    
+                                  </table>
+                                  <hr>
+
+                                  <p style="text-align:center;margin-top:70px;" ><input type="submit" class="btn btn-danger"  value="Register"></p>
+                                 </form>
+                               </div>
+                             </div>
+                           </div>
+                          </div>
+                          </form>
+                        </ul>
+                   </nav>
+
+                      <!--carousel start-->
+                   <div id="slides" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                      <li data-target="#slides" data-slide-to="0" class="active"></li>
+                      <li data-target="#slides" data-slide-to="1"></li>
+                      <li data-target="#slides" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/sharkbanner3.png" alt="sharkbananer1" width="100%" height="500">
+                        <div class="carousel-caption">
+                          
+                        </div>   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/sharkbanner2.jpg" alt="mobilebanner2" width="100%" height="500">
+                        <div class="carousel-caption">
+                         
+                        </div>   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/sharkbanner1.jpg" alt="mobilebanner3" width="1100" height="500">
+                        <div class="carousel-caption">
+                         
+                        </div>   
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#slides" data-slide="prev">
+                     
+                    <a class="carousel-control-next" href="#slides" data-slide="next">
+                     
+                    </a>
+                  </div><!--end of carousel-->
+                 
+                  
+                   
+             </div><!--end of 1st col-12 div-->
+          </div><!--end of 1st row div-->
+
+          
+            <div class="column-md-12">
+            <img src="images/sharkban.jpg" alt="sharkbanner" width="100%" >
+            </div><!--end of banner-->
+            <div class="col-md-12 headtag">
+             <h2 class="hea">We create the best gaming technology</h2>
+             <p class="xc">around the globe.....</p>
+            </div><!--end of head tag-->
+
+            <!--slogan -->
+            <div class="row">
+            <div class="col-md-6">
+              <h1 class="xz">Fast & Furious</h1>
+            </div>
+            <div class="col-md-6"> 
+              <img src="images/leftban.jpg" alt="leftbanner image" width="100%">
+            </div>
+          </div>
+          <div class="col-md-12">
+            <h4 style="color:white;">Our latest products :</h4>
+          </div>
+          <!--cards-->
+        <div class="row">
+          
+          <div class="col-md-3">
+                
+                
+            <div class="container bn">
+              <div class="card" style="width:100%">
+                <img class="card-img-top" src="images/phn1.jpg" alt="Card image" >
+                <div class="card-body">
+                  <h4 class="card-title">shark ultra(black)</h4>
+                 
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+           </div>
+         
+        </div>
+        <!--end of card 1--> 
+        <!--start of card2-->
+        <div class="col-md-3">
+          
+          
+          <div class="container bn">
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="images/phn1.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">shark ultra(black)</h4>
+               
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+         </div>
+        
+        </div>
+        <!--card2-->
+        <div class="col-md-3">
+          
+          
+        <div class="container bn">
+          <div class="card" style="width:100%">
+            <img class="card-img-top" src="images/phn1.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">shark ultra(black)</h4>
+             
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+        <!--card3-->
+        <div class="col-md-3">
+          
+          
+        <div class="container bn">
+        <div class="card" style="width:100%">
+          <img class="card-img-top" src="images/phn1.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">shark ultra(black)</h4>
+           
+            <p><a href="#" class="btn btn-primary">Add to cart</a></p>
+          </div>
+        </div>
+        </div>
+        
+        </div>
+        <!--end of card 1--> 
+        <!--start of card2-->
+        <div class="col-md-3">
+          
+          
+          <div class="container bn">
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="images/phn1.jpg" alt="Card image" style="width:100%" >
+              <div class="card-body">
+                <h4 class="card-title">shark ultra(black)</h4>
+               
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+         </div>
+        
+        </div>
+        <!--card2-->
+        <div class="col-md-3">
+          
+          
+        <div class="container bn">
+          <div class="card" style="width:100%">
+            <img class="card-img-top" src="images/phn1.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">shark ultra(black)</h4>
+             
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+        <!--card3-->
+        <div class="col-md-3">
+                
+                
+          <div class="container bn">
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="images/phn1.jpg" alt="Card image" >
+              <div class="card-body">
+                <h4 class="card-title">shark ultra(black)</h4>
+               
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+         </div>
+       
+      </div>
+      
+      <!--end of card 1--> 
+      <!--start of card2-->
+      <div class="col-md-3">
+        
+        
+        <div class="container bn">
+          <div class="card" style="width:100%">
+            <img class="card-img-top" src="images/phn1.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">shark ultra(black)</h4>
+             
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+       </div>
+      
+      </div>
+      <!--card2-->
+     
+     
+    
+    <div class="col-md-12">
+      <p class="back">All rights reserved to cellZONE</p>
+    </div>
+
+ 
+
+
+
+
+
+
+
+        </div><!--row-->
+          </div><!--row-->
+            
+
+        
+          </div> <!--container div-->
+
+       
+      
+
+        </body>
+    </html>            
+
+          
+            
+             
+
+
+               
+
+             
+
+
+                   
+                   
+                  
+                    
+                    
+                    
+                 
+
+                
+
+
+       

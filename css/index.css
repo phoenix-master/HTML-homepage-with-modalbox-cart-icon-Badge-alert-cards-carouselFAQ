@@ -1,0 +1,73 @@
+.mr{
+    margin-left: 15px;
+}
+
+.fr{
+    margin-left:30px;
+}
+
+.nd{
+    padding:10px;
+
+}
+
+.container{
+    background:black;
+}
+
+.headtag{
+   
+    color:white;
+}
+
+.align{
+    margin-left: 370px;
+}
+
+.hea{
+    font-family:kalam;
+    margin-top: 40px;
+}
+
+.xd{
+    float:right;
+}
+
+.xz{
+    font-family: Ink Free;
+    margin-top: 140px;
+    color:white;
+    margin-left:200px;
+    
+}
+
+
+
+table th{
+    padding:10px;
+}
+
+.xc{
+    margin-left: 400px;
+}
+
+.bn{
+    margin-top:30px;
+    text-align:center;
+}
+
+.bn:hover{
+    background-color: aqua;
+}
+
+.back{
+    background:#666666;
+    padding:10px;
+    text-align:center;
+    margin-top:15px;
+    margin-bottom: 0;
+}
+
+.active{
+    color:white;
+}
